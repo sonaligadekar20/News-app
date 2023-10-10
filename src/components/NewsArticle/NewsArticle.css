@@ -6,8 +6,9 @@
     margin: 0 auto;
 }
 .news-article-card{
-    margin-bottom: 50px;
-    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 320px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -19,6 +20,8 @@
 }
 .article-info{
     display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
 }
 .btn-read-more{
    text-decoration: none;
